@@ -152,7 +152,7 @@
           <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="item">
               <div class="thumb">
-                <a href="#"><img src="/${pageContext.request.contextPath}/assets/images/top-game-01.jpg" alt=""></a>
+                <a href="#"><img src="${pageContext.request.contextPath}/assets/images/top-game-01.jpg" alt=""></a>
               </div>
               <div class="down-content">
                 <span class="category">Adventure</span>
@@ -176,7 +176,7 @@
           <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="item">
               <div class="thumb">
-                <a href="#"><img src="/${pageContext.request.contextPath}/assets/images/top-game-03.jpg" alt=""></a>
+                <a href="#"><img src="${pageContext.request.contextPath}/assets/images/top-game-03.jpg" alt=""></a>
               </div>
               <div class="down-content">
                 <span class="category">Adventure</span>
@@ -188,7 +188,7 @@
           <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="item">
               <div class="thumb">
-                <a href="#"><img src="/${pageContext.request.contextPath}/assets/images/top-game-04.jpg" alt=""></a>
+                <a href="#"><img src="${pageContext.request.contextPath}/assets/images/top-game-04.jpg" alt=""></a>
               </div>
               <div class="down-content">
                 <span class="category">Adventure</span>
@@ -237,12 +237,12 @@
 
     <!-- Scripts -->
     <!-- Bootstrap core JavaScript -->
-    <script src="${pageContext.request.contextPath} assets/javascript/jquery/jquery.min.js"></script>
-    <script src="${pageContext.request.contextPath} assets/javascript/bootstrap/js/bootstrap.min.js"></script>
-    <script src="${pageContext.request.contextPath} assets/javascript/isotope.min.js"></script>
-    <script src="${pageContext.request.contextPath} assets/javascript/owl-carousel.js"></script>
-    <script src="${pageContext.request.contextPath} assets/javascript/counter.js"></script>
-    <script src="${pageContext.request.contextPath} assets/javascript/custom.js"></script>
+    <script src="${pageContext.request.contextPath}/assets/javascript/jquery.min.js"></script>
+    <script src="${pageContext.request.contextPath}/assets/javascript/bootstrap.min.js"></script>
+    <script src="${pageContext.request.contextPath}/assets/javascript/isotope.min.js"></script>
+    <script src="${pageContext.request.contextPath}/assets/javascript/owl-carousel.js"></script>
+    <script src="${pageContext.request.contextPath}/assets/javascript/counter.js"></script>
+    <script src="${pageContext.request.contextPath}/assets/javascript/custom.js"></script>
 
   </body>
 
