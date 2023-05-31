@@ -67,7 +67,7 @@
                 <li><a href="manager.games.html" class="active">Juegos</a></li>
                 <li><a href="manager.admin.html">Administradores</a></li>
                 <li><a href="login.html">Inicia sesión</a></li>
-                <li><a href="#">Manager<img src="${pageContext.request.contextPath} / assets/images/profile-header.jpg" style="border-radius: 50%;
+                <li><a href="#">Manager<img src="${pageContext.request.contextPath}/assets/images/profile-header.jpg" style="border-radius: 50%;
                 margin-left: 5px; max-width: 20%;" alt=""></a></li>
               </ul>
               <a class='menu-trigger'>
@@ -85,8 +85,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h3>Lista de Administradores</h3>
-            <span class="breadcrumb"><a href="#">Home</a> &gt; Lista de Administradores</span>
+            <h3>Lista de Juegos</h3>
+            <span class="breadcrumb"><a href="#">Home</a> &gt; Lista de Juegos</span>
           </div>
         </div>
       </div>
@@ -98,7 +98,7 @@
           <div class="col-lg-6">
             <div class="section-heading">
               <!-- <h6>TOP GAMES</h6> -->
-              <h2>Listado de Administradores</h2>
+              <h2>Listado de Juegos</h2>
             </div>
           </div>
           <div class="col-lg-6">
@@ -225,84 +225,6 @@
       </div>
     </div>
 
-    <div class="section categories">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <div class="section-heading">
-              <h6>Categorías</h6>
-              <h2>Top Categorías</h2>
-            </div>
-          </div>
-          <div class="col-lg col-sm-6 col-xs-12">
-            <div class="item">
-              <h4>Action</h4>
-              <div class="thumb">
-                <a href="#"><img src="${pageContext.request.contextPath}/assets/images/categories-01.jpg" alt=""></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg col-sm-6 col-xs-12">
-            <div class="item">
-              <h4>Action</h4>
-              <div class="thumb">
-                <a href="#"><img src="${pageContext.request.contextPath}/assets/images/categories-05.jpg" alt=""></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg col-sm-6 col-xs-12">
-            <div class="item">
-              <h4>Action</h4>
-              <div class="thumb">
-                <a href="#"><img src="${pageContext.request.contextPath}/assets/images/categories-03.jpg" alt=""></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg col-sm-6 col-xs-12">
-            <div class="item">
-              <h4>Action</h4>
-              <div class="thumb">
-                <a href="#"><img src="${pageContext.request.contextPath}/assets/images/categories-04.jpg" alt=""></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg col-sm-6 col-xs-12">
-            <div class="item">
-              <h4>Action</h4>
-              <div class="thumb">
-                <a href="#"><img src="${pageContext.request.contextPath}/assets/images/categories-05.jpg" alt=""></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section cta">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5">
-            <div class="shop">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="section-heading">
-                    <h6>Nosotros</h6>
-                    <h2>Compra y obtén los mejores <em>precios</em> para ti!</h2>
-                  </div>
-                  <p>No dejes pasar la oportidad. Tenemos las mejores ofertas todos los meses en los mejores juegos y
-                    sagas.</p>
-                  <div class="main-button">
-                    <a href="listajuego.html">Compra ahora</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-5 offset-lg-2 align-self-end">
-          </div>
-        </div>
-      </div>
-    </div>
 
     <footer>
       <div class="container">

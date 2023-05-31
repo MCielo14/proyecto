@@ -1,13 +1,38 @@
 package com.ergoproxy.entregable5.models.beans;
 
 public class Usuario {
+    private int idusuario;
     private String nombre;
     private String apellido;
     private String correo;
-    private String contrasena;
-    private String nickname;
-    private int estado_baneado;
 
+    private String contrasenia;
+    private String nickname;
+    private String avatar;
+    private int estado_baneado;
+    public int getIdusuario() {
+        return idusuario;
+    }
+
+    public void setIdusuario(int idusuario) {
+        this.idusuario = idusuario;
+    }
+
+    public String getContrasenia() {
+        return contrasenia;
+    }
+
+    public void setContrasenia(String contrasenia) {
+        this.contrasenia = contrasenia;
+    }
+
+    public String getAvatar() {
+        return avatar;
+    }
+
+    public void setAvatar(String avatar) {
+        this.avatar = avatar;
+    }
     public String getNombre() {
         return nombre;
     }
@@ -30,14 +55,6 @@ public class Usuario {
 
     public void setCorreo(String correo) {
         this.correo = correo;
-    }
-
-    public String getContrasena() {
-        return contrasena;
-    }
-
-    public void setContrasena(String contrasena) {
-        this.contrasena = contrasena;
     }
 
     public String getNickname() {

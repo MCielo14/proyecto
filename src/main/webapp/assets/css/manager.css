@@ -31,7 +31,7 @@ font & reset css
 reset
 --------------------------------------------- 
 */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div,
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
 figure, header, nav, section, article, aside, footer, figcaption {
@@ -89,8 +89,8 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   color: #1e1e1e;
-  margin-top: 0 px;
-  margin-bottom: 0 px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-weight: 700;
 }
 
@@ -109,10 +109,10 @@ img {
   overflow: hidden;
 }
 
-/* 
+/*
 ---------------------------------------------
 Global Styles
---------------------------------------------- 
+---------------------------------------------
 */
 html,
 body {
@@ -179,10 +179,10 @@ body {
   color: #fff;
 }
 
-/* 
+/*
 ---------------------------------------------
 Pre-loader Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .js-preloader {
@@ -213,29 +213,29 @@ Pre-loader Style
 
 @-webkit-keyframes dot {
   50% {
-      -webkit-transform: translateX(96px);
-      transform: translateX(96px);
+    -webkit-transform: translateX(96px);
+    transform: translateX(96px);
   }
 }
 
 @keyframes dot {
   50% {
-      -webkit-transform: translateX(96px);
-      transform: translateX(96px);
+    -webkit-transform: translateX(96px);
+    transform: translateX(96px);
   }
 }
 
 @-webkit-keyframes dots {
   50% {
-      -webkit-transform: translateX(-31px);
-      transform: translateX(-31px);
+    -webkit-transform: translateX(-31px);
+    transform: translateX(-31px);
   }
 }
 
 @keyframes dots {
   50% {
-      -webkit-transform: translateX(-31px);
-      transform: translateX(-31px);
+    -webkit-transform: translateX(-31px);
+    transform: translateX(-31px);
   }
 }
 
@@ -281,10 +281,10 @@ Pre-loader Style
 
 
 
-/* 
+/*
 ---------------------------------------------
 Header Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .background-header {
@@ -386,7 +386,7 @@ Header Style
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
   border: transparent;
-  letter-spacing: 0.25px;
+  letter-spacing: .25px;
 }
 
 .header-area .main-nav .nav li:last-child a {
@@ -457,6 +457,7 @@ Header Style
   background-color: #fff;
   display: block;
   position: absolute;
+  width: 30px;
   height: 2px;
   left: 0;
   width: 75%;
@@ -552,7 +553,7 @@ Header Style
     font-weight: 400;
     color: #1e1e1e;
     background-color: #fff;
-     border-radius: 0px 0px 25px 25px;
+    border-radius: 0px 0px 25px 25px;
   }
   .background-header .main-nav .nav li,
   .header-area .main-nav .nav li {
@@ -643,17 +644,17 @@ Header Style
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  
+
 }
 
-/* 
+/*
 ---------------------------------------------
 Banner Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .main-banner {
-  background-image: url("../images/manager-banner-bg.jpg");
+  background-image: url(../images/manager-banner-bg.jpg);
   border-radius: 0px 0px 150px 150px;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -773,10 +774,10 @@ Banner Style
 
 
 
-/* 
+/*
 ---------------------------------------------
 Services Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .features {
@@ -815,10 +816,10 @@ Services Style
 
 
 
-/* 
+/*
 ---------------------------------------------
 Trending Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .trending .main-button {
@@ -903,10 +904,10 @@ Trending Style
 }
 
 
-/* 
+/*
 ---------------------------------------------
 Most Played Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .most-played {
@@ -979,10 +980,10 @@ Most Played Style
 }
 
 
-/* 
+/*
 ---------------------------------------------
 Categories Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .categories .main-button {
@@ -1011,10 +1012,10 @@ Categories Style
   margin-bottom: 0px;
 }
 
-/* 
+/*
 ---------------------------------------------
 CTA Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .cta {
@@ -1022,7 +1023,7 @@ CTA Style
 }
 
 .cta::after {
-  background-image: url("../images/images/cta-bg.jpg");
+  background-image: url(../images/cta-bg.jpg);
   max-width: 550px;
   max-height: 510px;
   width: 100%;
@@ -1108,10 +1109,10 @@ CTA Style
 }
 
 
-/* 
+/*
 ---------------------------------------------
 Footer Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 footer {
@@ -1119,7 +1120,7 @@ footer {
   background-color: #0027ff;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../images/manager-footer-bg.jpg");
+  background-image: url(../images/manager-footer-bg.jpg);
   min-height: 150px;
   border-radius: 150px 150px 0px 0px;
 }
@@ -1144,14 +1145,14 @@ footer p a:hover {
 }
 
 
-/* 
+/*
 ---------------------------------------------
 Page Header Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .page-heading {
-  background-image: url("../images/manager-page-heading-bg.jpg");
+  background-image: url(../images/manager-page-heading-bg.jpg);
   border-radius: 0px 0px 150px 150px;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -1180,10 +1181,10 @@ Page Header Style
 }
 
 
-/* 
+/*
 ---------------------------------------------
 Shop Page Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .trending ul.trending-filter {
@@ -1332,10 +1333,10 @@ Shop Page Style
 }
 
 
-/* 
+/*
 ---------------------------------------------
 Single Page Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .single-product .sep {
@@ -1484,10 +1485,10 @@ Single Page Style
 }
 
 
-/* 
+/*
 ---------------------------------------------
 Contact PAge Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .contact-page .left-text {
@@ -1508,7 +1509,7 @@ Contact PAge Style
   display: block;
   font-size: 16px;
   color: #aaaaaa;
-  font-size: 300px;
+  font-size: 300;
   margin-bottom: 30px;
 }
 
@@ -1575,10 +1576,10 @@ Contact PAge Style
   background-color: #0027ff;
 }
 
-/* 
+/*
 ---------------------------------------------
 Responsive Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 body {
@@ -1672,13 +1673,13 @@ body {
 }
 
 @media (max-width: 1200px) {
-  
+
 }
 
-/* 
+/*
 ---------------------------------------------
 Gaming Library Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .gaming-library {
@@ -1767,8 +1768,8 @@ Gaming Library Style
 }
 
 .templatemo-item {
-	max-width: 80px; 
-	border-radius: 23px;
+  max-width: 80px;
+  border-radius: 23px;
 }
 
 .most-played .item ul li:first-child {
