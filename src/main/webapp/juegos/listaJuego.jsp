@@ -8,7 +8,7 @@
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="com.ergoproxy.entregable5.models.beans.Juegos" %>
 <%@ page import="com.ergoproxy.entregable5.models.daos.JuegosDao" %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <% ArrayList<Juegos> listaJuegos = (ArrayList<Juegos>) request.getAttribute("listaJuegos"); %>
 
 <!-------------------------------------------------------------------------------------->
@@ -23,19 +23,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
           rel="stylesheet">
-
     <title>Juegos | Manager ERGO PROXY</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="C:\Users\maric\IdeaProjects\Entregable5\Template\assets\css\bootstrap.min.css" rel="stylesheet">
-
+    <link href="${pageContext.request.contextPath}/assets/css/bootstrap.min.admin.user.css" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="C:\Users\maric\IdeaProjects\Entregable5\Template\assets\css\fontawesome.css">
-    <link rel="stylesheet" href="C:\Users\maric\IdeaProjects\Entregable5\Template\assets\css\manager.css">
-    <link rel="stylesheet" href="C:\Users\maric\IdeaProjects\Entregable5\Template\assets\css\owl.css">
-    <link rel="stylesheet" href="C:\Users\maric\IdeaProjects\Entregable5\Template\assets\css\animate.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/manager.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/owl.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/animate.css">
+
     <!--
 
   TemplateMo 589 lugx gaming
@@ -48,16 +46,7 @@
   <body>
 
     <!-- ***** Preloader Start ***** -->
-    <div id="js-preloader" class="js-preloader">
-      <div class="preloader-inner">
-        <span class="dot"></span>
-        <div class="dots">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-    </div>
+
     <!-- ***** Preloader End ***** -->
 
     <!-- ***** Header Area Start ***** -->
@@ -68,17 +57,17 @@
             <nav class="main-nav">
               <!-- ***** Logo Start ***** -->
               <a href="index.html" class="logo">
-                <img src="assets/images/logo.png" alt="" style="width: 65px;">
+                <img src="${pageContext.request.contextPath}/assets/images/logo.png" alt="" style="width: 65px;">
               </a>
               <!-- ***** Logo End ***** -->
               <!-- ***** Menu Start ***** -->
               <ul class="nav">
-                <li><a href="C:\Users\maric\IdeaProjects\Entregable5\Template\manager.home.html" >Home</a></li>
+                <li><a href="Template/manager.admin.html" >Home</a></li>
                 <li><a href="manager.users.html">Usuarios</a></li>
-                <li><a href="manager.games.html"class="active">Juegos</a></li>
+                <li><a href="manager.games.html" class="active">Juegos</a></li>
                 <li><a href="manager.admin.html">Administradores</a></li>
                 <li><a href="login.html">Inicia sesión</a></li>
-                <li><a href="#">Manager<img src="assets/images/profile-header.jpg" style="border-radius: 50%;
+                <li><a href="#">Manager<img src="${pageContext.request.contextPath} / assets/images/profile-header.jpg" style="border-radius: 50%;
                 margin-left: 5px; max-width: 20%;" alt=""></a></li>
               </ul>
               <a class='menu-trigger'>
@@ -121,7 +110,7 @@
             <div class="row-cols-1">
               <div class="item vertical-center">
                 <ul>
-                  <li><img src="assets/images/game-01.jpg" alt="" class="templatemo-item"></li>
+                  <li><img src="${pageContext.request.contextPath}/assets/images/game-01.jpg" alt="" class="templatemo-item"></li>
                   <li>
                     <h6><%=j.getIdJuegos() %></h6><span><%=j.getIdJuegos() %></span>
                   </li>
@@ -163,7 +152,7 @@
           <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="item">
               <div class="thumb">
-                <a href="#"><img src="assets/images/top-game-01.jpg" alt=""></a>
+                <a href="#"><img src="/${pageContext.request.contextPath}/assets/images/top-game-01.jpg" alt=""></a>
               </div>
               <div class="down-content">
                 <span class="category">Adventure</span>
@@ -175,7 +164,7 @@
           <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="item">
               <div class="thumb">
-                <a href="#"><img src="assets/images/top-game-02.jpg" alt=""></a>
+                <a href="#"><img src="${pageContext.request.contextPath}/assets/images/top-game-02.jpg" alt=""></a>
               </div>
               <div class="down-content">
                 <span class="category">Adventure</span>
@@ -187,7 +176,7 @@
           <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="item">
               <div class="thumb">
-                <a href="#"><img src="assets/images/top-game-03.jpg" alt=""></a>
+                <a href="#"><img src="/${pageContext.request.contextPath}/assets/images/top-game-03.jpg" alt=""></a>
               </div>
               <div class="down-content">
                 <span class="category">Adventure</span>
@@ -199,7 +188,7 @@
           <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="item">
               <div class="thumb">
-                <a href="#"><img src="assets/images/top-game-04.jpg" alt=""></a>
+                <a href="#"><img src="/${pageContext.request.contextPath}/assets/images/top-game-04.jpg" alt=""></a>
               </div>
               <div class="down-content">
                 <span class="category">Adventure</span>
@@ -211,7 +200,7 @@
           <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="item">
               <div class="thumb">
-                <a href="#"><img src="assets/images/top-game-05.jpg" alt=""></a>
+                <a href="#"><img src="${pageContext.request.contextPath}/assets/images/top-game-05.jpg" alt=""></a>
               </div>
               <div class="down-content">
                 <span class="category">Adventure</span>
@@ -223,7 +212,7 @@
           <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="item">
               <div class="thumb">
-                <a href="#"><img src="assets/images/top-game-06.jpg" alt=""></a>
+                <a href="#"><img src="${pageContext.request.contextPath}/assets/images/top-game-06.jpg" alt=""></a>
               </div>
               <div class="down-content">
                 <span class="category">Adventure</span>
@@ -249,7 +238,7 @@
             <div class="item">
               <h4>Action</h4>
               <div class="thumb">
-                <a href="#"><img src="assets/images/categories-01.jpg" alt=""></a>
+                <a href="#"><img src="${pageContext.request.contextPath}/assets/images/categories-01.jpg" alt=""></a>
               </div>
             </div>
           </div>
@@ -257,7 +246,7 @@
             <div class="item">
               <h4>Action</h4>
               <div class="thumb">
-                <a href="#"><img src="assets/images/categories-05.jpg" alt=""></a>
+                <a href="#"><img src="${pageContext.request.contextPath}/assets/images/categories-05.jpg" alt=""></a>
               </div>
             </div>
           </div>
@@ -265,7 +254,7 @@
             <div class="item">
               <h4>Action</h4>
               <div class="thumb">
-                <a href="#"><img src="assets/images/categories-03.jpg" alt=""></a>
+                <a href="#"><img src="${pageContext.request.contextPath}/assets/images/categories-03.jpg" alt=""></a>
               </div>
             </div>
           </div>
@@ -273,7 +262,7 @@
             <div class="item">
               <h4>Action</h4>
               <div class="thumb">
-                <a href="#"><img src="assets/images/categories-04.jpg" alt=""></a>
+                <a href="#"><img src="${pageContext.request.contextPath}/assets/images/categories-04.jpg" alt=""></a>
               </div>
             </div>
           </div>
@@ -281,7 +270,7 @@
             <div class="item">
               <h4>Action</h4>
               <div class="thumb">
-                <a href="#"><img src="assets/images/categories-05.jpg" alt=""></a>
+                <a href="#"><img src="${pageContext.request.contextPath}/assets/images/categories-05.jpg" alt=""></a>
               </div>
             </div>
           </div>
@@ -310,23 +299,6 @@
             </div>
           </div>
           <div class="col-lg-5 offset-lg-2 align-self-end">
-            <div class="subscribe">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="section-heading">
-                    <h6>NEWSLETTER</h6>
-                    <h2>Obtén S/.50 de descuento<em> Suscríbete</em> al Newsletter!</h2>
-                  </div>
-                  <div class="search-input">
-                    <form id="subscribe" action="#">
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                             placeholder="Tu correo...">
-                      <button type="submit">Subscríbete ahora</button>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -343,12 +315,12 @@
 
     <!-- Scripts -->
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/counter.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="${pageContext.request.contextPath} assets/javascript/jquery/jquery.min.js"></script>
+    <script src="${pageContext.request.contextPath} assets/javascript/bootstrap/js/bootstrap.min.js"></script>
+    <script src="${pageContext.request.contextPath} assets/javascript/isotope.min.js"></script>
+    <script src="${pageContext.request.contextPath} assets/javascript/owl-carousel.js"></script>
+    <script src="${pageContext.request.contextPath} assets/javascript/counter.js"></script>
+    <script src="${pageContext.request.contextPath} assets/javascript/custom.js"></script>
 
   </body>
 
