@@ -1,4 +1,4 @@
-package com.ergoproxy.entregable5.controllers;
+package com.ergoproxy.entregable5.manager.controllers;
 
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;

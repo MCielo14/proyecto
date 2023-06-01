@@ -1,6 +1,6 @@
-package com.ergoproxy.entregable5.models.beans;
+package com.ergoproxy.entregable5.manager.models.beans;
 
-public class Usuario {
+public class Manager {
     private int idusuario;
     private String nombre;
     private String apellido;

@@ -1,6 +1,6 @@
-package com.ergoproxy.entregable5.models.daos;
+package com.ergoproxy.entregable5.manager.models.daos;
 
-import com.ergoproxy.entregable5.models.beans.Juegos;
+import com.ergoproxy.entregable5.manager.models.beans.Juegos;
 
 import java.sql.*;
 import java.util.ArrayList;

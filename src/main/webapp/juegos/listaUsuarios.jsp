@@ -6,8 +6,8 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page import="java.util.ArrayList" %>
-<%@ page import="com.ergoproxy.entregable5.models.beans.Juegos" %>
-<%@ page import="com.ergoproxy.entregable5.models.daos.JuegosDao" %>
+<%@ page import="com.ergoproxy.entregable5.manager.models.beans.Juegos" %>
+<%@ page import="com.ergoproxy.entregable5.manager.models.daos.JuegosDao" %>
 <%@ page contentType="text/html;charset=UTF-8" %>
 <% ArrayList<Juegos> listaJuegos = (ArrayList<Juegos>) request.getAttribute("listaJuegos"); %>
 

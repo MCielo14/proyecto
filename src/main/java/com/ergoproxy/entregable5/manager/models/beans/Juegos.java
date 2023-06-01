@@ -1,4 +1,4 @@
-package com.ergoproxy.entregable5.models.beans;
+package com.ergoproxy.entregable5.manager.models.beans;
 
 public class Juegos {
     private int idJuegos;

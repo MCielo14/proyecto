@@ -1,7 +1,7 @@
 <%@ page import="java.util.ArrayList" %>
-<%@ page import="com.ergoproxy.entregable5.models.beans.Usuario" %>
+<%@ page import="com.ergoproxy.entregable5.manager.models.beans.Manager" %>
 <%@ page contentType="text/html;charset=UTF-8" %>
-<% ArrayList<Usuario> listaUsuarios = (ArrayList<Usuario>) request.getAttribute("listaUsuarios"); %>
+<% ArrayList<Manager> listaManager = (ArrayList<Manager>) request.getAttribute("listaManager"); %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -101,14 +101,14 @@ https://templatemo.com/tm-589-lugx-gaming
           </form>
         </div>
       </div>
-      <% for (Usuario j :listaUsuarios) { %>
+      <% for (Manager j :listaManager) { %>
       <div class="row-cols-1" >
         <div class="item vertical-center" >
           <ul >
             <li ><h5 > <%=j.getNickname() %> </h5 ><img src = "assets/images/game-01.jpg" alt = "" class="templatemo-item" ></li >
 
             <li >
-              <h6 > Cantidad de juegos comprados </h6 ><span > Sandbox </span >
+              <h6 > Cantidad de juegos comprados </h6 ><span > # </span >
             </li >
             <li >
               <h6 > Cantidad de juegos vendidos </h6 ><span > # </span >
@@ -142,12 +142,12 @@ https://templatemo.com/tm-589-lugx-gaming
 
 <!-- Scripts -->
 <!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<script src="assets/js/isotope.min.js"></script>
-<script src="assets/js/owl-carousel.js"></script>
-<script src="assets/js/counter.js"></script>
-<script src="assets/js/custom.js"></script>
+<script src="${pageContext.request.contextPath}/assets/javascript/jquery.min.js"></script>
+<script src="${pageContext.request.contextPath}/assets/javascript/bootstrap.min.js"></script>
+<script src="${pageContext.request.contextPath}/assets/javascript/isotope.min.js"></script>
+<script src="${pageContext.request.contextPath}/assets/javascript/owl-carousel.js"></script>
+<script src="${pageContext.request.contextPath}/assets/javascript/counter.js"></script>
+<script src="${pageContext.request.contextPath}/assets/javascript/custom.js"></script>
 
 </body>
 
